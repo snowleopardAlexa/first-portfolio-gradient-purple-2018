@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lato|Libre+Baskerville|Macondo|Montserrat|Playfair+Display|Poppins|Roboto|Ubuntu');
+
+html {
+    font-size: calc(0.2em + 1vw); 
+}
+
+
+body {
+    background-image: url('white.png');
+    background-position: center;
+}
+
+.jumbotron {
+    border-radius: 0%;
+    background-color: #00bcd4;
+}
+
+.display-4 {
+    color: black;
+    font-size: 3.5rem;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+}
+
+
+.lead {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+address {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Macondo', cursive;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 3rem;
+}
+
+.list-inline {
+font-size: 1.2rem;
+font-family: 'Macondo', cursive; 
+padding: 1rem;
+}
+
+.list-inline-item {
+    padding: 0.5rem;
+}
+
+small {
+    font-size: 1rem;
+    color: black;
+    font-family: 'Macondo', cursive; 
+}
+
+footer {
+    background-color: #00bcd4;
+}
+
+/* social media buttons */
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}

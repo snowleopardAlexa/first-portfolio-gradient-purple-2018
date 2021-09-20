@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab|Cabin|Dosis|Poppins');
+
+html {
+    font-size: calc(0.5em + 1vw); 
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+/* NAVIGATION BAR */
+.navbar-brand {
+    font-size: 1.3em;
+    font-family: 'Cabin';
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+/* INFORMATION DISPLAY */
+.jumbotron-fluid, .jumbotron {
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Cabin';
+    font-size: 4em;
+}
+
+.display-3 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.lead {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.my-4 {
+  width: 80%;  
+}
+
+/* CARDS, LOCATION */
+
+.row {
+    text-align: center;
+    width: 100%;   
+}
+
+.col {
+    text-align: center; 
+}
+
+.card-text {
+ font-size: 1em;
+}
+
+.col-sm {
+    margin-left: -5px;
+}
+
+/* FOOTER - form, social media icons, address and hours of operation */
+.container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.9rem;
+    margin-bottom: 80px;
+}
+
+.form {
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.form-group, .form-check {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.btn {
+    font-size: 1em;
+}
+
+.list {
+    list-style-type: none;
+    font-family: 'Cabin';
+    margin-left: -40px;
+}
+
+.list-inline-item {
+    font-family: 'Cabin';
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+.icons > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+   
+}
+
+.details > li {
+    list-style-type: none;
+    display: block;
+    font-family: 'Cabin';
+    font-size: 1em; 
+    margin-left: -0.8em;
+}
+
+h3 {
+    margin-left: 2.4rem;
+    font-size: 1.7em;
+    font-family: 'Cabin';
+}
+

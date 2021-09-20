@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lato|Comfortaa|Roboto|Montserrat|Varela+Round|Concert+One|Crete+Round|Fjalla+One|Francois+One|Fredoka+One|Hammersmith+One|Patua+One|Poppins|Righteous');
+
+html {
+    font-size: calc(0.5em + 1vw); 
+}
+
+.jumbotron {
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1cefff, #ACB6E5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1cefff, #ACB6E5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
+
+.navbar {
+    background-color: #1F1C2C;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    margin-top: 0.3rem;
+    
+}
+
+/* OVERLAY NAVBAR */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(181, 228, 255); /* Black fallback color */
+    background-color: rgba(209, 255, 251, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 10%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    font-family: 'Varela Round', cursive;
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: rgb(32, 28, 53);
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: rgb(61, 245, 252);;
+    background-color: #fff;
+
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: -0.3rem;
+    right: 0.7rem;
+    font-size: 3rem;
+}
+
+.overlay .closebtn:hover {
+  background-color: transparent;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.display-8, h2 {
+    font-family: 'Varela Round', cursive;
+    text-align: center;    
+    color: #302b63;
+}
+
+.lead {
+    font-family: 'Varela Round', cursive;
+    color: #302b63;  
+}
+
+p {
+    text-align: center;
+    font-family: 'Varela Round', cursive;
+    margin-top: 2rem;
+    line-height: 1.9rem;
+    font-size: 1rem;
+    color: #1F1C2C;
+}
+
+.navbar-nav {
+    display: inline-block;
+}
+
+/* SOCIAL MEDIA */
+.media-container {
+    border-bottom: 1px solid rgb(13, 221, 228);
+    color: #1cefff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.media-container > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+li > a {
+  color: #1cefff;  
+}
+
+h2 {
+    text-align: center;
+}
+
+/* WORK SECTION */
+
+h2 {
+ font-size: 2.5rem;
+ margin-top: 2rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    background-color: #1F1C2C;
+    border-radius: 0%;
+    border: 1px solid #1cefff;
+    color: #1cefff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+}
+
+.btn:hover {
+    color: rgb(240, 20, 130);
+}
+
+/* MOTIVATIONAL BLOG */
+.row {
+    margin-top: 3.5rem;
+}
+
+.card {
+    border: transparent;
+    border-radius: 0%;
+}
+
+.card-title, .card-text {
+    font-size: 0.5rem;
+    display: inline;
+}
+
+.content-title {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.btn-blog {
+    background-color: transparent;
+    border-radius: 0%;
+    border: 1px solid rgb(240, 20, 130);
+    color: rgb(240, 20, 130);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+.btn-blog:hover {
+    color: #15ecfc;
+    border: 1px solid #15ecfc;
+}
+
+/* FOOTER */
+.footer-container {
+    margin-top: 5rem;
+}
+
+.text-uppercase {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-top: 3rem;
+    
+}
+
+.text-uppercase-logo {
+    margin-top: 3rem;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(240, 20, 130);
+    font-size: 3.5rem;
+    margin-left: 0.5rem;
+}
+
+.footer-container {
+    background-color: #1F1C2C;
+    font-family: 'Varela Round', cursive;
+}
+
+
+.list-unstyled > li {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 250, 250);
+    font-size: 0.7rem;
+}
+
+.list-inline {
+ margin-left: -1.5rem;
+}
+
+a {
+    font-size: 0.9rem;
+    color: #1cefff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(240, 20, 130);
+    text-decoration: none;
+}
+
+.btn-news {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    border: 1px solid #1cefff; 
+    border-radius: 0%;
+    margin-top: -0.1rem;
+    margin-left: 2rem;
+    color: rgb(240, 20, 130);
+}
+
+.btn-news:hover {
+    background-color:#1cefff; 
+    color: rgb(167, 1, 84);
+}
+
+.footer-copyright {
+    font-family: 'Roboto', cursive;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+/* MOTIVATIONAL BLOG */
+.row {
+    margin-top: 3.5rem;
+}
+
+.card {
+    border: transparent;
+    border-radius: 0%;
+}
+
+.card-title, .card-text {
+    font-size: 0.5rem;
+    display: inline;
+}
+
+.content-title {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.btn-blog {
+    background-color: transparent;
+    border-radius: 0%;
+    border: 1px solid rgb(240, 20, 130);
+    color: rgb(240, 20, 130);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+.btn-blog:hover {
+    color: #15ecfc;
+    border: 1px solid #15ecfc;
+}
+
+/* HOVER BLOG */
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+.main-title{
+  color: #15ecfc;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.container-images .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(28, 240, 255, 0.63);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 5rem;
+}
+
+.text-uppercase {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-top: 3rem;
+    
+}
+
+.text-uppercase-logo {
+    font-family: 'Comfortaa', cursive;
+    color: #f01482;
+    font-size: 3.5rem;
+    margin-left: 0.5rem;
+}
+
+.footer-container {
+    background-color: #1F1C2C;
+    font-family: 'Varela Round', cursive;
+}
+
+
+.list-unstyled > li {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 250, 250);
+    font-size: 0.7rem;
+}
+
+.list-inline {
+ margin-left: -1.5rem;
+}
+
+a {
+    font-size: 0.9rem;
+    color: #1cefff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(240, 20, 130);
+    text-decoration: none;
+}
+
+.btn-news {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    border: 1px solid #1cefff; 
+    border-radius: 0%;
+    margin-top: -0.1rem;
+    margin-left: 2rem;
+    color: rgb(240, 20, 130);
+}
+
+.btn-news:hover {
+    background-color:#1cefff; 
+    color: rgb(167, 1, 84);
+}
+
+.footer-copyright {
+    font-family: 'Roboto', cursive;
+    color: #fff;
+    font-size: 0.8rem;
+}

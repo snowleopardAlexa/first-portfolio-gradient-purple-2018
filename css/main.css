@@ -1,0 +1,288 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Anton|Fjalla+One|Francois+One|Merriweather|Merriweather+Sans|Noto+Serif|Nunito|Pangolin|Philosopher|Poiret+One|Poppins|Quattrocento+Sans|Questrial|Raleway|Righteous|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Ubuntu|Varela+Round');
+
+/* font-size calculation */
+html {
+    font-size: calc(0.5em + 1vw); 
+    max-width: 100%;
+}
+
+body {
+    max-width: 100%;
+}
+
+/* HERO MAIN */
+.jumbotron {
+    max-width: 100%; 
+    background: linear-gradient(270deg, #ee587b, #ee0f43, #940593, #320131);
+    background-size: 800% 800%; 
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    margin: 0px 0 0 0px;
+    border-radius: 0%;
+}
+/* background animation */
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.container, .container-fluid {
+    max-width: 100%;
+}
+
+
+/* hero */
+.display-3, .my-4, .lead, p {
+    text-align: center;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;    
+}
+
+.display-3 {
+    font-size: 3.5rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+.my-4 {
+  border: 1px solid white;
+}
+
+.btn {
+ color: #fff;
+ border-radius: 0%;
+ border: 1px solid #fff;
+ background: #000;  
+ 
+}   
+
+.btn:hover {
+    color: #00F260;
+    border: 1px solid #00F260;
+}
+
+/* FONT-AWESOME social media */
+
+.fab {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* NAVIGATION */
+.navbar {
+    background: #000;
+    color: white;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid #bc4e9c;
+    border-top: 3px solid #00F260;
+    z-index: 99;
+    max-width: 100%;
+    
+}
+
+.navbar-nav {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* ABOUT */
+.col {
+text-align: center;
+    
+}
+
+.design {
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* web design/development */
+h2, h3 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+/* DEVICONS */
+
+.devicon-photoshop-line {
+    font-size: 2.5em;
+}
+
+.devicon-illustrator-line {
+    font-size: 2.5em;
+}
+
+.devicon-css3-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-sass-original {
+    font-size: 2.5em;
+}
+
+.devicon-html5-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-bootstrap-plain {
+    font-size: 2.5em;
+}
+
+.devicon-wordpress-plain {
+    font-size: 2.5em;
+}
+
+.devicon-foundation-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-javascript-plain {
+    font-size: 2.5em;
+}
+
+.devicon-jquery-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-react-original-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-nodejs-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-php-plain {
+    font-size: 2.5em;
+}
+
+.devicon-laravel-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-mysql-plain {
+    font-size: 2.5em;
+}
+
+.devicon-mongodb-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-git-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-angularjs-plain {
+    font-size: 2.5em;
+}
+
+.devicon-django-plain {
+    font-size: 2.5em;
+}
+
+.devicon-python-plain-wordmark {
+    font-size: 2.5em;
+}
+
+.devicon-github-plain {
+    font-size: 2.5em;
+}
+
+/*...*/
+
+/* SERVICES */
+
+.row, .column {
+max-width: 100%;
+}
+
+
+/* CONTACT FORM */
+
+.form-group {
+    text-align: center;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* WORK */
+.card {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.card:hover {
+    background-color: transparent; 
+    border: 2px solid #0ED2F7;
+    color: black;
+}
+
+.card-text {
+    color: #000;
+    font-size: 1.3rem;  
+    color: white;
+}
+
+.card-text:hover {
+  color: #00F260;
+}
+
+/* SERVICES*/
+
+.mt-0, h6 {
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+
+.media {
+    padding: 20px;
+}
+
+
+
+

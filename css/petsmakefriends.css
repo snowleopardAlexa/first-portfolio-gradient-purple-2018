@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Istok+Web|Montserrat|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Jua|Lobster+Two|Righteous');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+  html,body {
+   height:100%; 
+   max-width: 100%;
+   font-size: calc(0.5em + 1vw); 
+   font-family: 'Montserrat', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Jua', cursive;
+    color: #000;
+  }
+
+  h2 {
+    color: white;
+    font-family: 'Jua', cursive;
+  }
+
+ .card-title, .card-text {
+   text-align: center;
+   font-family: 'Jua', cursive;
+ }
+
+ .card-title {
+font-size: 3.7rem;
+background: 6px solid #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+ .card-text {
+font-size: 1.5rem;
+background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+ @media only screen and (max-width: 600px) {
+  .card-title {
+      font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-text {
+      font-size: 1rem;
+  }
+}
+  /* HOST PET */
+
+  .card {
+    border-radius: 0%;
+  }
+
+  .jumbotron {
+    background: transparent;
+    border-top: 1px solid #CB356B;
+    border-radius: 0%;
+    }
+
+
+.jumbotron-fluid-app {
+background: transparent;
+border-top: 1px solid #CB356B;
+background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .display-4, .lead, p {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .dispaly-4 {
+    font-size: 2rem;
+  }
+  
+  .lead {
+      font-size: 1.5rem;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  p {
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    margin-top: 5px;
+    border:transparent;
+    border-radius: 0%;
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+  }
+
+  .btn:hover {
+    color: white;
+  }
+
+  .btn-register {
+    border: 1px solid white;
+    border-radius: 0%;
+    color: white;
+    font-size: 1.5rem;
+    background: transparent;
+  }
+
+
+.form-inline {
+  width: 100%;
+}  
+
+.list-inline-item {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF0099;
+  text-decoration: none;
+}
+
+.text-uppercase {
+  color: white;
+}
+
+.list-unstyled {
+  color: white;
+}
+
+
+  /* FOOTER */
+footer {
+background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: relative;
+left: 0;
+width: 100%;
+color: white;
+text-align: center;
+}
+
+
+
+
+
+  

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display|Roboto+Slab|Rasa|Satisfy|Spectral+SC|Vollkorn+SC');
+
+/*html {
+    font-size: calc(1em + 1vw); 
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-family: 'Satisfy';
+    color: #111111;
+    text-align: center;
+  }
+
+.navbar-brand:hover {
+   color: #111111;
+}
+
+/* INFORMATION DISPLAY */
+.jumbotron {
+background-color: #DDDDDD; 
+margin-top: -32px;
+}
+
+.img-fluid {
+    margin-top: -32px;
+}
+
+.display-3 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Vollkorn SC';
+}
+
+@media screen and (min-width: 319px) and (max-width: 400px) {
+.display-3 {
+    font-size: 2em;
+ }
+}
+
+@media screen and (min-width: 319px) and (max-width: 324px) {
+ p {
+     margin-left: -10px;
+  }
+ }
+
+.lead {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Rasa';
+}
+
+.jumbotron-fluid {
+    margin-top: -32px;
+    background-color: #ffc0cb;
+}
+
+.btn {
+    font-size: 25px;
+    font-family: 'Satisfy';
+    background-color: #fffff7;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+/* MODAL */
+.modal-title, .col-form-label {
+    font-family: 'Vollkorn SC';
+}
+
+.modal-content {
+    background-color: #DDDDDD; 
+}
+
+/* QUOTE */
+.blockquote {
+    margin-top: -32px;
+    background-color: pink;
+}
+
+.mb-0 {
+ font-family: 'Vollkron SC';
+ text-align: center;    
+}
+
+.blockquote-footer {
+    text-align: center;
+    line-height: 30px;
+}
+
+/* FOOTER */
+.navbar-bottom {
+    margin-top: -20px;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+/* social media facebook */
+.fa {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: right;  
+}

@@ -1,0 +1,78 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|');
+
+html {
+    font-size: calc(0.5em + 1vw); 
+}
+
+body {
+    width: 100%;
+    margin: 0px 0 0 0px;
+}
+
+/* FRONT ENTRANCE */
+body {
+    max-width: 100%; 
+    height: 600px;
+    background: linear-gradient(270deg, #ee587b, #ee0f43, #940593, #320131);
+    background-size: 800% 800%; 
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    margin: 0px 0 0 0px;
+}
+/* background animation */
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.container {
+   margin-top: 3rem; 
+   border: 0.2rem solid #00F260; 
+   width: 50%;
+}
+
+.display-3, .my-4, .lead, p {
+    text-align: center;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;    
+}
+
+.display-3 {
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+.btn {
+    border-radius: 0%;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+
+.btn:hover {
+    border: 1px solid #00F260;
+    background-color: #000;
+    color: #00F260;
+}
+
+.developer {
+    color:white; 
+    font-family: 'Poiret One', cursive;
+}

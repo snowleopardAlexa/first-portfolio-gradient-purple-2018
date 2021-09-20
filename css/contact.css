@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lato|Libre+Baskerville|Macondo|Montserrat|Playfair+Display|Poppins|Roboto|Ubuntu');
+
+html {
+    font-size: calc(0.2em + 1vw); 
+}
+
+
+body {
+    background-image: url('white.png');
+    background-position: center;
+}
+
+/* NAVBAR */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00bcd4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenav a {
+    font-family: 'Macondo', cursive;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: gold;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -1rem;
+    right: 0.5rem;
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    color: #000;
+}
+
+span {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.container-navbar {
+    margin-top: 1rem;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+h1 {
+    font-family: 'Macondo', cursive;  
+    color: #000;   
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -4rem;
+}
+
+h2 {
+    font-family: 'Macondo', cursive;  
+    margin-top: 1rem;
+    color: #000;   
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-family: 'Macondo', cursive;  
+    color: #000;   
+    font-size: 4rem;
+    text-align: center;
+}
+
+address, p {
+    font-family: 'Macondo', cursive;  
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.btn {
+    font-family: 'Macondo', cursive;  
+    color: #fff; 
+}
+
+.form-group {
+    text-align: center;
+    width: 50%;
+}
+
+.container-info {
+    padding: 6rem;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 3rem;
+}
+
+.list-inline {
+font-size: 1.2rem;
+font-family: 'Macondo', cursive; 
+padding: 1rem;
+}
+
+.list-inline-item {
+    padding: 0.5rem;
+}
+
+small {
+    font-size: 1rem;
+    color: black;
+    font-family: 'Macondo', cursive; 
+}
+
+footer {
+    background-color: #00bcd4;
+}
+
+/* social media buttons */
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}

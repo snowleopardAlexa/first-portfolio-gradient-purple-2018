@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+/* Code written by Aleksandra Slomska */
+
+html {
+    font-size: calc(0.5em + 1vw); 
+}
+
+body {
+    font-family: 'Lobster';
+    width: 100%;
+}
+
+/* NAVIGATION MENU */
+
+.navbar {
+    background-color: #4CAF50;   
+}
+
+.navbar-brand {
+    font-family: 'Lobster';
+    color: #fff;
+}
+
+/* INFORMATION DISPLAY */
+
+.jumbotron-fluid {
+    background-color: #fff;
+}
+
+.display-3 {
+    font-size: 3.2em;
+    font-family: 'Lobster';
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.5em;
+    font-family: 'Lobster';
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.2em;
+}
+
+/* FOOTER */
+
+ul {
+    width: 70%;
+    margin: auto;
+    padding: 0;
+}
+
+li {
+    font-family: 'Lobster';
+    font-size: 1.5em;
+    list-style-type: none;
+    line-height: 3rem;
+    color: #000;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Code written by Aleksandra Slomska */

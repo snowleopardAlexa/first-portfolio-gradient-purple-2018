@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Anton|Fjalla+One|Quicksand|Muli|Dosis|Merriweather|Merriweather+Sans|Noto+Serif|Nunito|Pangolin|Philosopher|Poiret+One|Poppins|Quattrocento+Sans|Questrial|Raleway|Righteous|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Ubuntu|Varela+Round');
+
+html {
+    font-size: calc(0.5em + 1vw); 
+}
+
+.display-3, .lead, h2 {
+    text-align: center;
+    font-family: 'Poiret One';
+    font-weight: bold;
+    color: #000;
+}
+
+.display-3 {
+    font-size: 3rem;
+}
+
+.lead {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.jumbotron-fluid, .navbar {
+    max-width: 100%;
+    border: 1px solid #40E0D0;
+    background: linear-gradient(270deg, #0af2b6, #0af2ea, #36f20a, #0ad0f2);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.media {
+    padding: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.navbar {
+    text-align: center;
+    border: 1px solid #40E0D0;;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Poiret One';
+    color: #000;
+}
+.navbar-brand:hover {
+    color: #f3aa0b;
+}
+
+.mt-0 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Poiret One';
+    color: #000;
+}
+
+.mt-0:hover {
+    color: #f3aa0b;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Quicksand';
+    color: #000;
+}
