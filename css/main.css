@@ -142,6 +142,10 @@ li {
 
 /* DEVICONS */
 
+.container-devicon {
+    margin-top: 20px;
+}
+
 .devicon-photoshop-line {
     font-size: 2em;
 }
@@ -232,6 +236,11 @@ li {
 
 .row, .column {
 max-width: 100%;
+}
+
+.media .services-img {
+    width: 80px;
+    height: 80px;
 }
 
 
