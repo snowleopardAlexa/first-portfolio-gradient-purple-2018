@@ -43,6 +43,7 @@ body {
 
 h2 {
     margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 5em;
     text-align: center;
     font-family: 'Great Vibes', cursive;
@@ -53,6 +54,10 @@ h1 {
     font-size: 2.7em;
     text-align: center;
     font-family: 'Great Vibes', cursive;
+}
+
+.btn-newsletter {
+    font-size: 1.2rem;
 }
 
 /* MENU */
@@ -66,9 +71,9 @@ ul {
 }
 
 /* CARDS - breakfast, lunch, dinner */
+
 .card {
-   border: 0.7px black;
-   width: 20rem;  
+   border: 0.7px black; 
 }
 
 .card-title {
@@ -76,26 +81,18 @@ ul {
     font-family: 'Great Vibes', cursive;
 }
 
-.card-body {
-    margin-top: -35px;
-}
-
 .btn {
     font-family: 'Great Vibes';
     display: inline-block;
     vertical-align: middle;
-    
 }
 
-.container {
-    width: 100%;
-    margin-bottom: 100px;
-}
-
-.row {
+.container-specials {
     width: 100%;
     margin-top: 50px;
 }
+
+
    
 /* COURSES GALLERY */        
 .hovereffect {
