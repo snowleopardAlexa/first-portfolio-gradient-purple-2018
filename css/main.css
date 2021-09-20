@@ -43,7 +43,6 @@ body {
     max-width: 100%;
 }
 
-
 /* hero */
 .display-3, .my-4, .lead, p {
     text-align: center;
@@ -69,7 +68,6 @@ body {
  border-radius: 0%;
  border: 1px solid #fff;
  background: #000;  
- 
 }   
 
 .btn:hover {
@@ -264,6 +262,7 @@ max-width: 100%;
     color: #000;
     font-size: 1.3rem;  
     color: white;
+    text-transform: uppercase;
 }
 
 .card-text:hover {
