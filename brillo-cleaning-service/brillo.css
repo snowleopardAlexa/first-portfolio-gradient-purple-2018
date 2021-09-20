@@ -13,6 +13,7 @@ body {
 .navbar-brand {
     font-size: 1.3em;
     font-family: 'Cabin';
+    color: #fdf9f9;
 }
 
 .navbar-collapse {
@@ -118,6 +119,15 @@ h1 {
     font-family: 'Cabin';
     font-size: 1rem;
     padding: 2rem;
+    color: #fff;
+}
+
+address, small {
+    color: #fff;
+}
+
+.fa-facebook-official, .fa-twitter, .fa-instagram {
+    color: #fff;
 }
 
 .icons > li {
