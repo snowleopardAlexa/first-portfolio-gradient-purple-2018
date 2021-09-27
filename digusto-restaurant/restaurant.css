@@ -93,7 +93,6 @@ ul {
     margin-top: 50px;
 }
 
-
    
 /* COURSES GALLERY */        
 .hovereffect {
@@ -104,6 +103,7 @@ ul {
     position:relative;
     text-align:center;
     cursor:default;
+    margin-top: 20px;
     }
     
     .hovereffect .overlay {
@@ -144,18 +144,18 @@ ul {
     }
     
     .hovereffect a.info {
-    text-decoration:none;
-    display:inline-block;
+    text-decoration: none;
+    display: inline-block;
     color:#fff;
     border:0.5px ridge #fff;
     border-radius: 45%;
     background-color:transparent;
     opacity:0;
-    filter:alpha(opacity=0);
-    -webkit-transition:all .2s ease-in-out;
-    transition:all .2s ease-in-out;
-    margin:50px 0 0;
-    padding:7px 14px;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 50px 0 0;
+    padding: 7px 14px;
     }
     
     .hovereffect a.info:hover {
@@ -163,14 +163,14 @@ ul {
     }
     
     .hovereffect:hover img {
-    -ms-transform:scale(1.2);
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
     }
     
     .hovereffect:hover .overlay {
-    opacity:1;
-    filter:alpha(opacity=100);
+    opacity: 1;
+    filter: alpha(opacity=100);
     }
     
     .hovereffect:hover h5,.hovereffect:hover a.info {
@@ -263,4 +263,18 @@ li {
 
 .mr {
     margin-right: 1.5rem;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 767px) and (min-width: 375px) {
+    .container-courses {
+     margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .container-courses {
+     margin-left: 30px;
+    }
 }
