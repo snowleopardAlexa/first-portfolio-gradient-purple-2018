@@ -106,9 +106,3 @@ margin-top: -32px;
     background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
-/* social media facebook */
-.fa {
-    padding-left: 20px;
-    padding-top: 10px;
-    float: right;  
-}
