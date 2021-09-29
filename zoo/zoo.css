@@ -55,6 +55,11 @@ span {
     margin-left: 1rem;
 }
 
+.title {
+    font-family: 'Macondo', cursive; 
+    font-size: 2rem;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -70,7 +75,7 @@ span {
 }
 
 .jumbotron {
-    background-image: url('girafe.jpg');
+    background-image: url('../images/girafe.jpg');
     background-size: cover;
     border-radius: 0%;
 }
@@ -185,9 +190,3 @@ a:hover {
 
 /*::::::: MEDIA QUERIES :::::::::*/
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 400px) {
-    .row {
-  
-    } 
- }
