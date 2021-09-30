@@ -43,7 +43,6 @@ body {
     max-width: 100%;
 }
 
-
 /* hero */
 .display-3, .my-4, .lead, p {
     text-align: center;
@@ -69,7 +68,6 @@ body {
  border-radius: 0%;
  border: 1px solid #fff;
  background: #000;  
- 
 }   
 
 .btn:hover {
@@ -144,88 +142,92 @@ li {
 
 /* DEVICONS */
 
+.container-devicon {
+    margin-top: 20px;
+}
+
 .devicon-photoshop-line {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-illustrator-line {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-css3-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-sass-original {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-html5-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-bootstrap-plain {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-wordpress-plain {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-foundation-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-javascript-plain {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-jquery-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-react-original-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-nodejs-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-php-plain {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-laravel-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-mysql-plain {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-mongodb-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-git-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-angularjs-plain {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-django-plain {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-python-plain-wordmark {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .devicon-github-plain {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 /*...*/
@@ -234,6 +236,11 @@ li {
 
 .row, .column {
 max-width: 100%;
+}
+
+.media .services-img {
+    width: 80px;
+    height: 80px;
 }
 
 
@@ -264,6 +271,7 @@ max-width: 100%;
     color: #000;
     font-size: 1.3rem;  
     color: white;
+    text-transform: uppercase;
 }
 
 .card-text:hover {

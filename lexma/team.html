@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Full Stack Development agency" />
+    <meta name="keywords" content="web design, web development, full stack web developement, web applications" />
+    <meta name="author" content="Lexma Development" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="team.css" />
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <title>Team</title>
+  </head>
+  <body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-light">
+    <span class="navbar-brand animated fadeInDown" style="color:rgb(240, 20, 130);">Lexma</span>
+    <div class="navbar"> 
+        <span style="cursor:pointer;font-size:2rem;font-weight:bold;color:rgb(240, 20, 130);margin-top:-3px;margin-right:-1rem;" class="animated fadeInDown" onclick="openNav()">&#9776;</span>
+        </a>
+    </nav>
+      
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="home.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="work.html">WORK</a>
+            <a href="services.html">SERVICES</a>
+            <a href="team.html">TEAM</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="blog.html">BLOG</a>
+          </div>
+        </div>
+
+
+<!--Description-->
+<div class="container-team mx-auto d-block" style="margin-top: 4rem;">
+  <h2>MEET OUR TEAM</h2>
+      <div class="row">
+      <div class="col" style="margin-top: 1rem;">   
+      <h2>Alexandra Slomska</h2></br>
+      <h3>Full Stack Developer</h3></br>
+      <h4>Web Designer</h4></br>
+      <h5>Graphics Designer</h5></br>
+      <h6>Independent Soul</h6>
+      </div>
+      <div class="col" style="margin-top: 1rem;">
+      <h2>Mahmound Amr</h2></br>
+      <h3>Full Stack Developer</h3></br>
+      <h4>Pen Tester</h4></br>
+      <h5>Database Architect</h5></br>
+      <h6>Funny guy</h6>   
+      </div>
+    </div>
+  </div>
+
+<!--MODAL-->
+<button type="button" class="btn btn-lg mx-auto d-block"  data-toggle="modal" data-target="#exampleModal1" data-whatever="">JOIN US</button>
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <form method="POST" action="team-form.php" id="teamForm">
+          <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Full Name</label>
+              <input name="fullname" type="form-control" class="form-control" id="recipient-name" required>
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Email</label>
+            <input name="email" type="form-control" class="form-control" id="recipient-name" required>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message</label>
+            <textarea name="message" class="form-control" id="message-text" required></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-lg" form="teamForm">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>    
+
+  <!--FOOTER-->
+  <footer>
+    <div class="footer-container">
+        <footer class="page-footer font-small pt-4 mt-4">
+            <div class="container text-center text-md-left">
+              <div class="row" style="margin-top: 3.5rem;">
+                    <!--First column-->
+                    <div class="col-md-4">
+                        <h5 class="text-uppercase-logo text-md-left font-weight-bold">Lexma</h5>
+                    </div>
+                  
+                    <hr class="clearfix w-100 d-md-none">
+                    <hr class="clearfix w-100 d-md-none">
+        
+                    <div class="col-md-2 mx-auto">
+                        <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">SITE MAP</h5>
+                        <ul class="list-unstyled">
+                          <li>
+                              <a href="about.html">About us</a>
+                          </li>
+                          <li>
+                              <a href="work.html">Work</a>
+                          </li>
+                          <li>
+                              <a href="services.html">Services</a>
+                          </li>
+                          <li>
+                              <a href="team.html">Team</a>
+                          </li>
+                          <li>
+                            <a href="blog.html">Blog</a>
+                          </li>
+                      </ul>
+                    </div>
+             
+                    <hr class="clearfix w-100 d-md-none">
+        
+                    <div class="col-md-2 mx-auto">
+                        <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">CONTACT US</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                               lexmadevelopment@gmail.com
+                            </li>
+                            <li>
+                               +1 646.206.0176
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            
+            <div class="text-center py-3">
+                <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item">
+                      <button type="button" class="btn-news btn btn-lg" data-toggle="modal" data-target="#exampleModal">
+                      NEWSLETTER
+                      </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document" style="border: 0.5px solid #ffffff;">
+        <div class="modal-content">
+          <div class="modal-body" style="color: #f01482; font-size: 3rem; background-color: #1F1C2C;">
+            Newsletter in progress
+          </div>
+          <div class="modal-footer" style="color: #f01482; font-size: 3rem; background-color: #1F1C2C;">
+            <button type="button" class="btn-news btn btn-lg" data-dismiss="modal">Close</button>
+            <button type="button" class="btn-news btn btn-lg">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </li>
+        </ul>
+      </div>
+        
+            <hr>
+        
+       <!--Social buttons-->
+       <div class="text-center">
+        <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-sm btn-fb mx-1">
+                   <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-sm btn-tw mx-1">
+                   <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-sm btn-gplus mx-1">
+                 <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+                </a>
+            </li>
+        </ul>
+    </div>
+            
+            <!--Copyright-->
+            <div class="footer-copyright py-3 text-center">
+                © 2018 Copyright: Lexma Development Inc. All Rights Reserved.
+            </div>
+          </div>
+</footer>    
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+function openNav() {
+document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<script>
+$('#exampleModal').on('show.bs.modal', function (event) {
+var button = $(event.relatedTarget) 
+var recipient = button.data('whatever') 
+var modal = $(this)
+modal.find('.modal-title').text('New message to ' + recipient)
+modal.find('.modal-body input').val(recipient)
+})    
+</script>
+</body>
+</html>       

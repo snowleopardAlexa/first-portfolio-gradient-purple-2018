@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lato|Libre+Baskerville|Macondo|Montserrat|Playfair+Display|Poppins|Roboto|Ubuntu');
+
+html {
+    font-size: calc(0.2em + 1vw); 
+}
+
+ body {
+    background-image: url('white.png');
+    background-position: center; 
+}
+
+/* NAVBAR */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00bcd4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenav a {
+    font-family: 'Macondo', cursive;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: gold;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -1rem;
+    right: 0.5rem;
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    color: #000;
+}
+
+span {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.title {
+    font-family: 'Macondo', cursive; 
+    font-size: 2rem;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.display-4, .lead {
+  font-family: 'Macondo', cursive; 
+  margin-top: 1.5rem;
+}
+
+.btn {
+    border-radius: 0%;
+}
+
+.jumbotron {
+    background-image: url('../images/girafe.jpg');
+    background-size: cover;
+    border-radius: 0%;
+}
+
+.container-navbar {
+    margin-top: -3rem;
+}
+
+/* EIGHT CARDS FLEXBOX */
+.container {
+  max-width: 1200px; 
+
+}
+
+.card{
+	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+[class*="row"] {
+   margin-bottom: 1rem;
+  justify-content: center;
+}
+
+[class*="col-"] {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+}
+
+
+/* CAROUSEL */
+.carousel-inner {
+    margin-bottom: 3rem;
+}
+
+/* THREE CARDS  */
+.card { 
+   border-radius: 0%;
+   padding: 0.5rem;
+   display: flex;
+}
+
+.row {
+    max-width: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.col {
+    padding: 1rem;
+}
+
+.card-title {
+ font-size: 2.5rem;
+ text-align: center;
+ font-family: 'Macondo', cursive;
+}
+
+.card-text  {
+ text-align: center;
+ font-family: 'Macondo', cursive;
+ font-size: 1.5rem;
+ color: #000;
+}
+
+.card-text:hover {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 3rem;
+}
+
+.list-inline {
+font-size: 1.2rem;
+font-family: 'Macondo', cursive; 
+padding: 1rem;
+}
+
+.list-inline-item {
+    padding: 0.5rem;
+}
+
+small {
+    font-size: 1rem;
+    color: black;
+    font-family: 'Macondo', cursive; 
+}
+
+footer {
+    background-color: #00bcd4;
+}
+
+/* social media buttons */
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/*::::::: MEDIA QUERIES :::::::::*/
+

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Full Stack Development agency" />
+    <meta name="keywords" content="web design, web development, full stack web developement, web applications" />
+    <meta name="author" content="Lexma Development" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="contact.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-light">
+    <span class="navbar-brand animated fadeInDown" style="color:rgb(240, 20, 130);">Lexma</span>
+    <div class="navbar"> 
+        <span style="cursor:pointer;font-size:2rem;font-weight:bold;color:rgb(240, 20, 130);margin-top:-3px;margin-right:-1rem;" class="animated fadeInDown" onclick="openNav()">&#9776;</span>
+        </a>
+    </nav>
+      
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="home.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="work.html">WORK</a>
+            <a href="services.html">SERVICES</a>
+            <a href="team.html">TEAM</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="blog.html">BLOG</a>
+          </div>
+        </div>
+
+<!--HERO IMAGE-->      
+<img src="../images/pyramid.jpg" class="img-fluid mx-auto d-block" alt="Responsive image" style="width: 1360px; height: 300px;">
+
+<!-- CONTACT FORM AND LOCATIONS -->
+     <div class="container" style="max-width: 100%; width: 90%;">
+        <div class="row">
+        <div class="col">
+        <div class="contact">       
+        <h2>CONTACT</h2>
+        <h4>All fields are required</h4>
+        <hr> 
+            <form method="POST" action="contact.php">
+            <div class="form-group">
+                <label for="">Full Name</label>
+                <input type="text" class="form-control" required name="fullname">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1"  aria-describedby="emailHelp" required name="email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputMessage">Message</label>
+                <textarea class="form-control" id="exampleInputMessage" required name="msg" style="height: 150px;"></textarea>
+            </div>
+        <button type="submit" class="btn btn-lg mx-auto d-block">SUBMIT</button>
+    </form>
+</div>
+</div>
+<div class="col">
+    <h2>LOCATION</h2>
+    <h4>Within country/overseas</h4>
+    <hr>
+    <address>UNITED STATES</br>
+        <h4>30 River Court, 07310</br> 
+        Jersey City NJ, US.</br>
+        +1 646.206.0176</br>
+        lexmadevelopment@gmail.com</h4>
+    </address>
+
+    <address>EGYPT</br>
+        <h4>15th of May Road #7</br> 
+        Smouha. Cairo, 19290</br> 
+        lexmadevelopment@gmail.com</h4>
+    </address>
+</div>
+</div>
+</div>
+</div>
+
+     <!--FOOTER-->
+  <footer>
+    <div class="footer-container">
+        <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+            <div class="container text-center text-md-left">
+                <div class="row" style="margin-top: 3.5rem;">
+                    <!--First column-->
+                    <div class="col-md-4">
+                        <h5 class="text-uppercase-logo text-center font-weight-bold">Lexma</h5>
+                    </div>
+                  
+                    <hr class="clearfix w-100 d-md-none">
+        
+                    <hr class="clearfix w-100 d-md-none">
+        
+                    <div class="col-md-2 mx-auto">
+                        <h5 class="text-uppercase mb-3 mt-4 font-weight-bold">SITE MAP</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="about.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="work.html">Work</a>
+                            </li>
+                            <li>
+                                <a href="services.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="team.html">Team</a>
+                            </li>
+                            <li>
+                              <a href="blog.html">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+             
+                    <hr class="clearfix w-100 d-md-none">
+        
+                    <div class="col-md-2 mx-auto">
+                        <h5 class="text-uppercase mb-3 mt-4 font-weight-bold">CONTACT US</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                               lexmadevelopment@gmail.com
+                            </li>
+                            <li>
+                               +1 646.206.0176
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <hr>
+            
+            <div class="text-center py-3">
+                <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item">
+                      <button type="button" class="btn-news btn btn-lg" data-toggle="modal" data-target="#exampleModal">
+                      NEWSLETTER
+                      </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document" style="border: 0.5px solid #ffffff;">
+        <div class="modal-content">
+          <div class="modal-body" style="color: #f01482; font-size: 3rem; background-color: #1F1C2C;">
+            Newsletter in progress
+          </div>
+          <div class="modal-footer" style="color: #f01482; font-size: 3rem; background-color: #1F1C2C;">
+            <button type="button" class="btn-news btn btn-lg" data-dismiss="modal">Close</button>
+            <button type="button" class="btn-news btn btn-lg">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </li>
+        </ul>
+      </div>
+        
+            <hr>
+        
+            <!--Social buttons-->
+            <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-sm btn-fb mx-1">
+                           <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-sm btn-tw mx-1">
+                           <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-sm btn-gplus mx-1">
+                         <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!--Copyright-->
+            <div class="footer-copyright py-3 text-center">
+                © 2018 Copyright: Lexma Development Inc. All Rights Reserved.
+            </div>
+          </div>
+</footer> 
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+ function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+        </script>
+ 
+</body>
+</html>
